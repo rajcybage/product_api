@@ -1,0 +1,2 @@
+#Set Puma as the server for your web process in the Procfile of your application. You can set most values inline: Here we are set the threads 5(min) to 5(max)
+web: bundle exec puma -C ./config/puma.rb 
